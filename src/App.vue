@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Formulario from './components/EstadisticaForm/Formulario.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Formulario />
 </template>
 
 <style scoped>
